@@ -50,7 +50,308 @@
         <p>Informações Adicionais</p>
       </a>
     </nav>
-
+    <div class="w3-top w3-hide-large w3-hide-medium">
+      <nav class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a
+          href="#dadosPessoais"
+          class="w3-bar-item w3-button"
+          style="width: 20%;"
+          >Dados Pessoais</a
+        >
+        <a href="#tecnologias" class="w3-bar-item w3-button" style="width: 20%;"
+          >Tecnologias</a
+        >
+        <a href="#formacao" class="w3-bar-item w3-button" style="width: 20%;"
+          >Formação Acadêmica</a
+        >
+        <a
+          href="#profissional"
+          class="w3-bar-item w3-button"
+          style="width: 20%;"
+          >Experiência Profissional</a
+        >
+        <a href="#outros" class="w3-bar-item w3-button" style="width: 20%;"
+          >Informações Adicionais</a
+        >
+      </nav>
+    </div>
+    <div class="w3-padding-large" id="main">
+      <div id="dadosPessoais" class="w3-container w3-padding-32 w3-center">
+        <div class="w3-row">
+          <div class="w3-container w3-quarter">
+            <img
+              src="img/foto-andre.jpg"
+              alt="fot andré vítor"
+              class="w3-image"
+              width="100%"
+            />
+          </div>
+          <div class="w3-container w3-threequarter">
+            <header>
+              <h1>
+                <img
+                  src="img/nome.png"
+                  alt="nome: andré vítor erin strongren"
+                  class="w3-image"
+                  width="100%"
+                />
+              </h1>
+            </header>
+          </div>
+        </div>        
+        <div>
+          <ul class="w3-ul">
+            <li class="w3-hover-light-gray">Idade: 31 anos</li>
+            <li class="w3-hover-light-gray">Whatsapp: (11) 99441-2403</li>
+            <li class="w3-hover-light-gray">Telefone: (11) 3681-8290</li>
+            <li class="w3-hover-light-gray">
+              E-mail:
+              <a
+                href="mailto: andrevitorerin@gmail.com"
+                target="_blank"
+                rel="external"
+                >andrevitorerin@gmail.com</a
+              >
+            </li>
+            <li class="w3-hover-light-gray">
+              <address>
+                Osasco - SP
+              </address>
+            </li>
+          </ul>
+        </div>
+        <hr>
+        <div style="text-align: left" id="ask">
+          <p>Agora você já me conhece e eu não sei nem o seu nome &#x1F641</p>          
+          <form>
+            <label for="name">Vamos resolver isso! Qual seu nome?</label>
+            <input type="text" id="name">
+            <input type="button" value="Confirmar" class="w3-button w3-teal w3-round-large" id="button">
+          </form>
+        </div>
+        <div style="text-align: left" id="response"></div>
+      </div>
+      <div class="w3-container w3-padding-32" id="tecnologias">
+        <h2>Tecnologias</h2>
+        <hr style="width: 200px;" class="w3-opacity" />
+        <div id="tec"><p>
+        Para ver os detalhes de quais são meus conhecimentos específicos sobre
+        determinada tecnologia, basta clicar sobre ela
+        </p></div>
+        <div class="w3-conteiner margin-bottom">
+          <ul class="w3-ul">
+            <li class="w3-pale-blue">
+              Linguagens de Programação ou Desenvolvimento
+            </li>
+            <li>
+              <div id="html" class="titulo">
+                HTML
+              </div>
+              <div id="html1" class="descricao">
+                <p>
+                  Mexer com HTML sem dúvidas é uma das coisas mais gostosas e divertidas de se fazer. Meu primeiro contato com essa técnologia foi lá em 2010, quando os blogs estavam vivendo seu ápice, e quem não queria ter uma página personalizada? Depois disso, honestamente, não tive muito contato até este ano de 2020.
+                </p> 
+                <p>
+                  Voltei a ter contato com ela no curso técnico, para me aprofundar, fiz o Curso em Vídeo de HTML do Guanabara, depois fiz o curso do Estudonauta e o da Fundação Bradesco. E finalmente, quando estava mais confortável, estudei diretamente a documentação fornecida pela W3C.
+                </p>
+                <p>
+                  Entendo que a função da HTML é essencialmente <strong>semântica</strong>, por isso tento utilizar as tag da forma mais correta possível, pois compreendo a importante disso não apenas para um bom rankeamento em mecanismos de busca, como para a acessibilidade de pessoas com deficiência. 
+                </p>
+              </div>
+            </li>
+            <li>
+              <div id="css" class="titulo">
+                CSS
+              </div>
+              <div id="css1" class="descricao">
+                <p>
+                  Juntamente com HTML, as CSS são divertidíssimas. Muitas vezes passo horas simplesmente criando uma página de teste para experimentar estilos e funções. Minha trajetórias com as CSS foi paralela com a HTML. A diferença é que neste ano conheci o milagre chamado <strong>"frameworks"</strong>!
+                </p>
+                <p>
+                  Por enquanto estou familirizado com o W3 e com o Materialize.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div id="js" class="titulo">
+                JavaScript
+              </div>
+              <div id="js1" class="descricao">
+                <p>O JavaScript, honestamente, foi um choque em um primeiro momento &#x1F604</p>
+                <p>
+                  A primeira linguagem de programação que aprendi foi Java, então quando fui para o JavaScript eu ficava "mas como assim essa variável que era um int virou uma string?". Apesar de a lógica de programação ser a mesma, a cada linguagem temos que nos adaptar a seu estilo próprio. 
+                </p>
+                <p>
+                  Atualmente gosto muito de trabalhar com JS. Vi um pouco sobre ela no curso técnico, fiz o curso no Estudonauta e na Fundação Bradesco, que foram muito importantes para eu me familiarizam com os fundamentos da linguagem. Mas o que realmente me ajudou a conhecer esta linguagem de forma mais profunda foi o Bootcamp de <strong>FullStack</strong> que fiz pelo <abbr title="Instituto de Gestão e Tecnologia da Informação" style="text-decoration: underline;">IGTI</abbr>.
+                </p>
+                <p>
+                  Ali me aprofundei muito no conceito e funcionamento de funções. Tive contato com o Node.js e MongoDB(back-end), além de ter aprendido sobre APIs e uso de arquivos JSON.
+                </p>
+                <p>
+                  Quanto aos frameworks, estou mais familiarizado com o <strong>JQuery</strong>, mas também já tive contato com o <strong>React</strong>.
+                </p>
+                <p>
+                  Mas na dúvida, o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">site da Mozila</a> está aí para isso!
+                </p>
+              </div>
+            </li>
+            <li>
+              <div id="java" class="titulo">
+                Java
+              </div>
+              <div id="java1" class="descricao">
+                <p>
+                  Java foi a primeira linguagem de programação que aprendi. E apesar de muitas pessoas falarem mal dela, eu tenho um grande carinho, e gosto bastante de criar aplicativos desktop utilizando Java, só por diversão.
+                </p>
+                <p>
+                  Por ter me identificado muito, busquei aprender o máximo que podia, fiz no curso em vídeo Java Básico, e POO em Java, na Fundação Bradesco fiz o curso de Java Básico e Java Avançado. E comecei a estudar diretamente a documentação. Além de ter arriscado um pouco utilizar o <strong>Android Studio</strong>, mas infelizmente meu notebook não é tão potente e meu processador quase derreteu! &#x1F923
+                </p>
+                <p>
+                  Claro que comecei a estudar programação este ano, e nunca trabalhei na área, e me falta muita experiência e tenho muito a aprender. Mas pelo menos já me sinto muito confortável com conceitos como: Classes, Objetos, Encapsulamento, Polimorfismo, Herança, etc.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="w3-conteiner margin-bottom">
+          <ul class="w3-ul">
+            <li class="w3-pale-blue">
+              Softwares
+            </li>
+            <li>
+              <div id="so" class="titulo">
+                Sistemas Operacionais
+              </div>
+              <div id="so1" class="descricao">
+                meus conhecimentos em so
+              </div>
+            </li>
+            <li>
+              <div id="ide" class="titulo">
+                IDEs
+              </div>
+              <div id="ide1" class="descricao">
+                meus conhecimentos em ides
+              </div>
+            </li>
+            <li>
+              <div id="editores" class="titulo">
+                Editores de Imagem, Som e Vídeo
+              </div>
+              <div id="editores1" class="descricao">
+                meus conhecimentos em editores
+              </div>
+            </li>
+            <li>
+              <div id="office" class="titulo">
+                Ferramentas Office
+              </div>
+              <div id="office1" class="descricao">
+                meus conhecimentos em office
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="w3-conteiner margin-bottom">
+          <ul class="w3-ul">
+            <li class="w3-pale-blue">
+              Outras Tecnologias
+            </li>
+            <li>
+              <div id="hardware" class="titulo">
+                Hardware
+              </div>
+              <div id="hardware1" class="descricao">
+                meus conhecimentos em hardware
+              </div>
+            </li>
+            <li>
+              <div id="bd" class="titulo">
+                Banco de Dados
+              </div>
+              <div id="bd1" class="descricao">
+                meus conhecimentos em bd
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w3-container w3-padding-32" id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <hr style="width: 200px;" class="w3-opacity" />
+        <ul class="w3-ul">
+          <li class="w3-pale-blue">Bacharelado em Engenharia da Computação</li>
+          <li>
+            Univesp <br />
+            EaD <br />
+            Previsão de conclusão: 2025
+          </li>
+          <li class="w3-pale-blue">Técnico Desenvolvimento de Sistema</li>
+          <li>
+            Etec - Centro Paula Souza <br />
+            EaD <br />
+            Previsão de Conclusão: Junho / 2021
+          </li>
+          <li class="w3-pale-blue">Bacharelado Letras</li>
+          <li>
+            USP <br />
+            Não concluído <br />
+            Cursado de 2007 à 2010
+          </li>
+        </ul>
+      </div>
+      <div class="w3-conteiner w3-padding-32" id="profissional">
+        <h2>Experiência Profissional</h2>
+        <hr style="width: 200px;" />
+        <p>
+          Clique para expandir
+        </p>
+        <ul class="w3-ul">
+          <li class="w3-pale-blue">
+            <div id="anjos" class="titulo">
+              Anjos do Lar
+            </div>
+            <div id="anjos1" class="descricao">
+              descrição anjos do lar
+            </div>
+          </li>
+          <li>
+            <div id="mrbeer" class="titulo">
+              Mr. Beer
+            </div>
+            <div id="mrbeer1" class="descricao">
+              descrição mr beer
+            </div>
+          </li>
+          <li class="w3-pale-blue">
+            <div id="net" class="titulo">
+              Net
+            </div>
+            <div id="net1" class="descricao">
+              descrição net
+            </div>
+          </li>
+          <li>
+            <div id="cna" class="titulo">
+              CNA
+            </div>
+            <div id="cna1" class="descricao">
+              descrição cna
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-conteiner w3-padding-32" id="outros">
+        <h2>Informações Adicionais</h2>
+        <hr style="width: 200px;" />
+        <h3>Outras Formações</h3>
+        <h4>Certificados</h4>
+        <h3>Outros Conhecimentos</h3>
+        <h3>Carta de Apresentação</h3>
+        <h3>Hobbies, Interesses e Valores</h3>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

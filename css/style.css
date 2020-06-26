@@ -1,4 +1,5 @@
-.w3-sidebar {
+.w3-sidebar,
+.w3-bar {
   width: 120px;
   background: rgb(79, 78, 129);
 }
@@ -11,4 +12,26 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+  margin-left: 120px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.descricao {
+  display: none;
+}
+
+.titulo {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
 }
