@@ -10,7 +10,7 @@ $(document).ready(function () {
     if (firstName !== ' ') {
       tec.innerHTML = `<p>${firstName}, para ver os detalhes de quais são meus conhecimentos específicos sobre
       determinada tecnologia, basta clicar sobre ela</p>`;
-      exp.innerHTML = `<p>Bem, ${firstName}, agora vamos falar um pouco sobre as minhas experiência profissionais. Posso nunca ter trabalhado na área de tecnologia, mas tenho certeza que a bagagem que trago também é muito valiosa! Para conferir detalhadamente cada experiência, basta clicar sobre ela</p>`;
+      exp.innerHTML = `<p><br><br><br>Bem, ${firstName}, agora vamos falar um pouco sobre as minhas experiência profissionais. Posso nunca ter trabalhado na área de tecnologia, mas tenho certeza que a bagagem que trago também é muito valiosa! Para conferir detalhadamente cada experiência, basta clicar sobre ela</p>`;
     }
   });
   $('#html').click(function () {
