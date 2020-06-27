@@ -3,6 +3,10 @@
   background: rgb(79, 78, 129);
 }
 
+.w3-bar {
+  height: 0.8rem;
+}
+
 body,
 h1,
 h2,
@@ -15,7 +19,6 @@ h6 {
 
 #main {
   margin-left: 120px;
-  margin-top: 90px;
 }
 
 .margin-bottom {
