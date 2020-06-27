@@ -6,11 +6,11 @@ $(document).ready(function () {
     let exp = document.querySelector('#exp');
     let firstName = name.value.split(' ', 1);
     $('#ask').hide();
-    response.innerHTML = `<p>Muito prazer em te conhecer, ${firstName}! Espero que você goste do meu currículo. Estou a disposição para o esclarecimento de qualquer dúvida</p>`;
+    response.innerHTML = `<p><br><br><br>Muito prazer em te conhecer, ${firstName}!<br> Espero que você goste do meu currículo.<br> Estou a disposição para o esclarecimento de qualquer dúvida</p>`;
     if (firstName !== ' ') {
       tec.innerHTML = `<p>${firstName}, para ver os detalhes de quais são meus conhecimentos específicos sobre
       determinada tecnologia, basta clicar sobre ela</p>`;
-      exp.innerHTML = `<p><br><br><br>Bem, ${firstName}, agora vamos falar um pouco sobre as minhas experiência profissionais. Posso nunca ter trabalhado na área de tecnologia, mas tenho certeza que a bagagem que trago também é muito valiosa! Para conferir detalhadamente cada experiência, basta clicar sobre ela</p>`;
+      exp.innerHTML = `<p>Bem, ${firstName}, agora vamos falar um pouco sobre as minhas experiência profissionais. Posso nunca ter trabalhado na área de tecnologia, mas tenho certeza que a bagagem que trago também é muito valiosa! Para conferir detalhadamente cada experiência, basta clicar sobre ela</p>`;
     }
   });
   $('#html').click(function () {
