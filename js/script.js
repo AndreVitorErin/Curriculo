@@ -56,3 +56,11 @@ $(document).ready(function () {
     $('#cna1').fadeToggle(500);
   });
 });
+
+function openSidebar() {
+  document.getElementById('mySidebar').style.display = 'block';
+}
+
+function closeSidebar() {
+  document.getElementById('mySidebar').style.display = 'none';
+}
