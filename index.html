@@ -76,13 +76,13 @@
       </nav>
     </div>
     <div class="w3-padding-large" id="main">
-      <div id="dadosPessoais" class="w3-container w3-padding-32 w3-center">
+      <div id="dadosPessoais" class="w3-container w3-padding-32">
         <div class="w3-row">
           <div class="w3-container w3-quarter">
             <img
               src="img/foto-andre.jpg"
               alt="fot andré vítor"
-              class="w3-image"
+              class="w3-image w3-circle"
               width="100%"
             />
           </div>
@@ -92,41 +92,51 @@
                 <img
                   src="img/nome.png"
                   alt="nome: andré vítor erin strongren"
-                  class="w3-image"
+                  class="w3-image w3-padding-32"
                   width="100%"
                 />
               </h1>
             </header>
+            <div class="w3-row">
+              <div class="w3-half w3-container">
+                <ul class="w3-ul dadosPessoais">
+                  <li class="w3-hover-light-gray">Idade: 31 anos</li>
+                  <li class="w3-hover-light-gray">Whatsapp: (11) 99441-2403</li>
+                  <li class="w3-hover-light-gray">Telefone: (11) 3681-8290</li>
+                  <li class="w3-hover-light-gray">
+                  E-mail:
+                    <a
+                    href="mailto: andrevitorerin@gmail.com"
+                    target="_blank"
+                    rel="external">andrevitorerin@gmail.com</a>
+                  </li>
+                  <li class="w3-hover-light-gray">
+                    <address>
+                     Osasco - SP
+                    </address>
+                  </li>
+                </ul>
+              </div>          
+              <div class="w3-half w3-container">
+                <ul class="w3-ul dadosPessoais w3-card-4">
+                  <li class="w3-hover-light-gray"><a href="https://drive.google.com/file/d/1waWmXyodFA0ZD9IAtncMWrWdi5l5uI8Z/view?usp=sharing" class="links" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i> Curriculo em PDF</a></li>
+                  <li class="w3-hover-light-gray"><a href="https://github.com/AndreVitorErin/Curriculo" class="links" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Código-fonte deste site</a></li>
+                  <li class="w3-hover-light-gray"><a href="https://github.com/AndreVitorErin" class="links" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Meu perfil no GitHub</a></li>
+                  <li class="w3-hover-light-gray"><a href="https://www.linkedin.com/in/andr%C3%A9-v%C3%ADtor-erin-strongren-a44ba71aa/" class="links" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Meu perfil no Linkdln</a></li>
+                  
+                </ul>
+              </div>
           </div>
-        </div>        
-        <div>
-          <ul class="w3-ul">
-            <li class="w3-hover-light-gray">Idade: 31 anos</li>
-            <li class="w3-hover-light-gray">Whatsapp: (11) 99441-2403</li>
-            <li class="w3-hover-light-gray">Telefone: (11) 3681-8290</li>
-            <li class="w3-hover-light-gray">
-              E-mail:
-              <a
-                href="mailto: andrevitorerin@gmail.com"
-                target="_blank"
-                rel="external"
-                >andrevitorerin@gmail.com</a
-              >
-            </li>
-            <li class="w3-hover-light-gray">
-              <address>
-                Osasco - SP
-              </address>
-            </li>
-          </ul>
-        </div>
-        <hr>
+          <hr>
+        </div>  
+      </div>      
         <div style="text-align: left" id="ask">
-          <p>Agora você já me conhece e eu não sei nem o seu nome &#x1F641</p>          
+          <p>Agora você já me conhece e eu não sei nem o seu nome &#x1F641</p>
+          <p>Vamos resolver isso!</p>          
           <form>
-            <label for="name">Vamos resolver isso! Qual seu nome?</label>
-            <input type="text" id="name">
-            <input type="button" value="Confirmar" class="w3-button w3-teal w3-round-large" id="button">
+            <label ><b>Qual seu nome?</b></label>
+            <input type="text" id="name" class="w3-input w3-border w3-margin-bottom w3-blue-grey">
+            <input type="button" value="Confirmar" class="w3-button w3-pale-blue w3-round-large" id="button">
           </form>
         </div>
         <div style="text-align: left" id="response"></div>
@@ -223,7 +233,15 @@
                 Sistemas Operacionais
               </div>
               <div id="so1" class="descricao">
-                meus conhecimentos em so
+                <p>
+                  Apesar de já ter passado da casa dos 30 anos, fui uma das crianças sortudas da minha geração que conviveu com computadores desde sempre, e pude ir acompanhando sua evolução. O sistema operacional que mais utilizei foi o Microsoft Windows. E neste ano comecei a explorar um pouco mais o CRM, e comecei a me arriscar em algumas configurações de sistema.
+                </p>
+                <p>
+                  Também comecei a explorar o Linux, embora tenha ficado mais no Umbutu por enquanto, e esteja começando agora a brincar o ArchLinux.
+                </p>
+                <p>
+                  Claro que não dá pra aprender tudo em 6 meses (e acho que nem em 6 anos!), mas tento conciliar meu aprendizado de linguagem de programação de aplicativos, com o estudo de linguagem de mais baixo nível, para ter uma compreensão maior assembly, pois acho importante ter uma visão sistêmica.
+                </p>
               </div>
             </li>
             <li>
@@ -231,7 +249,15 @@
                 IDEs
               </div>
               <div id="ide1" class="descricao">
-                meus conhecimentos em ides
+                <p>
+                  Atualmente trabalho especialmente com o Visual Studio Code, por ser um editor de texto muito versátil. Mas às vezes me arrisco escrever diretamente no bloco de notas ou notepad++ para fixar alguns conceitos e estruturas.
+                </p>
+                <p>
+                  Além disso, com Java já utilizei o Netbeans e o Eclipse, e experimentei o Android Studio. A primeira linguagem de programação que tive contato foi o C (como meu conhecimento sobre essa linguagem ainda é muito restrito, não coloquei ele na lista), e enquanto interagia com essa linguagem utilizava o dev++.
+                </p>
+                <p>
+                  E não sei se conta exatamente como uma IDE, mas utilizo o Insomnia para consumo de endpoint quando trabalho com Node.js.
+                </p>
               </div>
             </li>
             <li>
@@ -239,7 +265,15 @@
                 Editores de Imagem, Som e Vídeo
               </div>
               <div id="editores1" class="descricao">
-                meus conhecimentos em editores
+                <p>
+                  Eu tenho muito hobbie, e um dos principais é desenhar. Juntando minha paixão por tecnologia com o meu amor pela arte, aprender Photoshop foi uma consequência natural. Lá em 2010 cheguei a fazer um curso de webdesigne, que me deu uma primeira base do PS, além de ter me ensinado outras ferramentas interessante, como corel draw, illustrator, e mesmo o praticamente falecido flash.
+                </p>
+                <p>
+                  Utilizo o photoshop tanto para edição de imagens, como para desenhos digitais (comprei uma mesa digitalizadora usada, mas que para brincar e fazer fanart funciona muito bem). Não me considero nenhum especialista, mas pelo menos sou capaz de dialogar com os responsáveis pela parte de designe e compreender suas demandas. Aliás, já está na minha lista aperfeiçoar meu conhecimento sobre UX (e sim, eu sei que UX não é só sobre designe, mas atrativos visuais são importantes, não é mesmo?)
+                </p>
+                <p>
+                  Além disso, como 90% das pessoas mais ativas online, eu já criei um canal de podcast, e já postei vídeos no meu canal do youTube. Novamente, nada grandioso, a maior parte era de compartilhamento exclusivo para um grupo restrito de amigos. Mas ainda sim, isso me deu a oportunidade de estudar e interagir com algumas ferramentas tais como Audacity (editor de áudio) e Filmora (editor de vídeo)
+                </p>
               </div>
             </li>
             <li>
@@ -247,7 +281,15 @@
                 Ferramentas Office
               </div>
               <div id="office1" class="descricao">
-                meus conhecimentos em office
+                <p>
+                  Conforme já comentei, cresci em frente a uma computador, então certas ferramentas como Wird, Excell e PowerPoint sempre foram muito naturais para mim.
+                </p>
+                <p>
+                  Em algum ponto da minha vida até cheguei a me aprofundar em Excell, aprendendo a fazer tabelas dinâmicas, criação de gráfico, etc. Mas pela falta de uso, não me lembro de quase nada. A questão é que se fui capaz de aprender uma vez, seria capaz de reaprender caso necessário.
+                </p>
+                <p>
+                  Atualmente prefiro alternativas em nuvem, especialmente as ferramentas ofice disponibilizadas pelo Google.
+                </p>
               </div>
             </li>
           </ul>
@@ -262,7 +304,12 @@
                 Hardware
               </div>
               <div id="hardware1" class="descricao">
-                meus conhecimentos em hardware
+                <p>
+                  Além de ter estudado hardware tanto no curso técnico como na faculdade, é quase impossível para alguém que interaje tanto com tecnologia não "colocar a mão na massa". Então já fiz pequenos repados, como inclusão de memória RAM em um notebook, troca de teclado em outro, troca de tela e da entrada usb de uma celular antigo, etc.
+                </p>
+                <p>
+                  Em suma, tenho uma visão geral, e conforme surge a necessidade faço o que tem que ser feito. A próxima meta é assim que tiver dinheiro montar meu próprio computador desktop, com uma capacidade de processamento mais parruda.
+                </p>
               </div>
             </li>
             <li>
@@ -270,7 +317,10 @@
                 Banco de Dados
               </div>
               <div id="bd1" class="descricao">
-                meus conhecimentos em bd
+                <p>Estudei um pouco de Banco de Dados no curso técnio, e para aprofundar meus conhecimento, fiz o curso de MySQL no curso em vídeo, e pela fundação Bradesco fui os cursos de Modelagem de Dados, Implementação de Banco de Dados e um de Administração de Banco de Dados. Além disso, conforme comentei na sessão de JavaScript, no Bootcamp de FullStack, aprendi um pouco sobre MongoDB, e no curso de Java avançado também vi um pouco sobre a integração entre a aplicação Java com o BD.</p>
+                <p>
+                  Como sou uma pessoa naturalmente muito curiosa, acabei também caindo em Cloud. Meu conhecimento ainda é limitado, mas estou no período de teste gratuido do AWS da Amazon, e frequentemente eles oferecem cursos e palestras online gratuitas ensinando a utilizar suas ferramentas. além de sempre que possível, dou uma pesquisada na documentação disponível.
+                </p>
               </div>
             </li>
           </ul>
@@ -303,40 +353,94 @@
       <div class="w3-conteiner w3-padding-32" id="profissional">
         <h2>Experiência Profissional</h2>
         <hr style="width: 200px;" />
-        <p>
-          Clique para expandir
-        </p>
+        <div id="exp">
+          <p>Bem, agora vamos falar um pouco sobre as minhas experiência profissionais. Posso nunca ter trabalhado na área de tecnologia, mas tenho certeza que a bagagem que trago também é muito valiosa! Para conferir detalhadamente cada experiência, basta clicar sobre ela</p>
+        </div>
         <ul class="w3-ul">
           <li class="w3-pale-blue">
             <div id="anjos" class="titulo">
-              Anjos do Lar
+              <span class="tituloEmprego">Anjos do Lar</span> - 09/2016 à 12/2019
             </div>
             <div id="anjos1" class="descricao">
-              descrição anjos do lar
+              <p>
+                Essa foi uma experiência muito expecial para mim, mas é impossível falar sobre ela sem contar um pouco mais da minha vida pessoal, espero que você não se importe. Mas por outro lado, acredito em empresas que vejam seus colaboradores como pessoas e não como número, neste caso, é até bom vocês me conhecerem um pouco mais, não acha?
+              </p>
+              <p>
+                Eu sou um homem transexual, isto quer dizer que quando nasci fui designado como mulher. Como infelizmente ainda vivemos em uma sociedade muito machista, foi desistimulado de fazer muitas coisas que eu gostava por não serem coisas de meninas (inclusive estudar tecnologia), depois que a gente amadurece é mais fácil se posiconar, mas isso é mais difícil quando somos muito jovens. E uma das coisas que me fascinavam era serviços de manutação. Me fascinava a capacidade de poder consertar, montar e desmontar coisas, etc. E nunca tive ninguém para me ensinar.
+              </p>
+              <p>
+                Mas quando sai de casa, aprendi na cara e na coragem, nunca tive problema em ser auto-didata, até porque gosto muito de pesquisar, de testar e não tenho medo de errar, e não tenho vergonha de tentar novamente até conseguir. 
+              </p>
+              <p>
+                E ai quando comecei a fazer minha transição de gênero, o mercado de trabalho não foi muito gentil comigo, e justamente no momento que eu mais precisava. E ai comecei a ofecer serviços de manutação, primeiro para amigos e conhecido, mas através do boca a boca a coisa foi escalando. Um dos apelos muito grande, é que boa parte das mulheres e pessoas LGBT tinham medo de receber um estranho em casa por medo de assédio ou homofobia. Então somando o bom trabalho que eu executava com uma boa proposta, passei a ter um alcance muito grande e pensei "por que não ajudar outras pessoas que assim como eu podem estar em dificuldade financeira muitas vezes por puro preconceito e falta de oportunidade?"
+              </p>
+              <p>
+                E foi assim que nasceu o Anjos do Lar - Serviços de Manutenção LGBT. E foi um período incrível de aprendizado em todos os sentido. Tanto de auto-gestão, como trabalho em equipe, capacidade de resolução de problemas, administração, e tantas outras coisas que nem seria capaz de listar aqui.
+              </p>
+              <p>
+                Claro que o que começou como tentativa e erro, teve que se transformar quando passei a atuar profissionalmente. E fiz inúmeros cursos técnicos, como Eletricista Instalador, Instalador Hidraúlico, Alvenaria, Impermeabilização, etc.
+              </p>
+              <p>
+                Aliás, estudando programção, percebi como desenvolvimento de software não é tão diferente de manutenção residencial: você precisa ter uma visão sistêmica, caso contrário, um reparo pontual pode causar um dano imenso; é necessário muito estudo e muita dedicação para aprender o funcionamento da coisas, e é preciso aprender a utilizar as ferramentas corretamente, ou além de inútil elas se tornam prejudiciais; mas só o conhecimento teórico não adianta muita coisa, você precisa ser observador, analítico e criativo, porque por mais que existam algumas regras gerais, não existem dois problemas iguais, portanto não existem duas soluções iguais; e por fim, mesmo fazendo tudo isso, ainda assim as coisas eventualmente vão dar errado! Por isso é preciso te paciência e senso de humor para lidar com imprevisto. Além disso, muitos trabalhos são impossíveis de serem realizados sozinho, então é importante aprender a trabalhar e equipe, e tem coisas que só o tempo e a experiência poderão te dar, portanto paciência e perseverança são a chave para o sucesso!
+              </p>
+              <p>
+                Mas você pode estar se perguntando: "se essa experiência foi tão boa e especial, porque terminou?". Acho que a resposta mais filosófica e nem por isso menos verdadeira é que tudo que começa um dia acaba, e precisamos aceitar quando um ciclo terminou e seguirmos em frente. Em termos práticos, a verdade é que a iniciativa escalou muito além das minhas capacidades administrativas, e apesar de eu ter pedido auxílio para outras pessoas e instituições, acabou não dando certo. E como eu só tinha uma boa idéia e uma boa intensão, acabei me endividando para pagar ferramente, treinamento, tributos, etc. Mas não sou administrador e também não tinha um fundo de investimento para manter o projeto até que ele fosse capaz de se manter sozinho. Por isso precisei finalizá-lo. E a nível pessoal, parei para refletir que por mais que eu ame fazer serviços de manutação residencial, prefiro manter isso como um hobbie e investir em uma outra carreira, e meu coração inequivocamente me trouxe até a área de desenvolvimento de sistemas. &#x1F9E1
+              </p>
             </div>
           </li>
           <li>
             <div id="mrbeer" class="titulo">
-              Mr. Beer
+              <span class="tituloEmprego">Mr. Beer</span> - 10/2014 à 09/2016
             </div>
             <div id="mrbeer1" class="descricao">
-              descrição mr beer
+              <p>
+                Sei que pode parecer "marmelada", mas essa foi outra experiência muito especial para mim. Antes de trabalhar na Mr. Beer (que caso você nunca tenha ouvido falar, é uma franquia de venda de cervejas artesanais), eu trabalhei numa loja de cerveja nos shopping em regime temporário, devido ao dia dos pais, que depois do Natal, era a data mais movimentada do ano. E eu já consumia cerveja artesanais ocasionalmente, mas trabalhar ali, me fez realmente me apaixonar por esse mundo.
+              </p>
+              <p>
+                E acho que você já deve ter percebido que quando gosto de algo eu me dedico de coração, busco conhecimento e dou meu melhor. E com as cervejas não foi diferente. Fiz um curso de Beer Sommelier no SENAC, que na época tinha o direito de distribuição do curso da Doemmens - curso alemão de Beer Sommelie mais conceituado do mundo.
+              </p>
+              <p>
+                Foi algo muito divertido que me ensinou muito, não apenas sobre cervejas, mas sobre a história da humanidade, sobre a biologia humana, e me conferiu uma maior percepção sobre meu próprio corpo. Na época até cheguei a participar do campeonado nascionas de Beer Sommeliers e fiquei na 29ª posição!
+              </p>
+              <p>
+                Mas voltando a Mr. Beer, no curso de Beer Sommelier fiz um amigo que me indicou para trabalhar na mesma loja que ele, pois um novo dono tinha acabado de comprá-la, já que o antigo tinha levado ela a falência!
+              </p>
+              <p>
+                Abracei o desafio, e mesmo tendo sido contratado como atendente, dava meu melhor, ficava além do horário, chegava antes e dei meu máximo, porque enchergava muito potencial ali. E saímos de uma situação de pós falência para terceiro lugar no ranking nacional das franquias, entre mais de 150 lojas e quiosques!
+              </p>
+              <p>
+                Realizar esse feito por si só muito gratificante, mas meu chefe era justo, e em menos de 2 meses de casa fui promovido para o cargo de gerente. E nessa função aprendi muito e vivi ótimas experiência. Era uma equipe pequena, eu e mais 2 pessoas, então além de ter que cuidar de coisas como fechamento de caixa, cálculo de comissões, contagem e organização e estoque, pedidos, criação de escala, etc, tinha também que participar ativamente da manutenção da loja, fosse lavando os banheiros, antes da abertura, servindo mesa, trocando os barris de chopp, etc.
+              </p>
+              <p>
+                A equipe era muito harmônica e foi um dos períodos profissionais mais felizes da minha vida. Então novamente a pergunta: "por que acabou?", e novamente digo: porque tudo precisa ter um fim hahahaha. Mas nesse caso, a questão é que houveram desentendimentos entre o dono da franquia e o franquiador, e como meu chefe estava abrindo uma outra empresa (na área de TI, aliás) e ele já era um advogado conceituado, seu foco parou de ser investir na loja. Conversamos e de forma amigável ele me despediu antes de encerrar a empresa, e nem houve aquele famoso "toma-la-da-cá" de eu te demito e você me devolve o FGTS, fui um término de contrato bem amigável, em que ele fez questão de me pagar tudo adequadamente como agradecimento pelos 2 anos de bom serviços prestados.
+              </p>
             </div>
           </li>
           <li class="w3-pale-blue">
             <div id="net" class="titulo">
-              Net
+              <span class="tituloEmprego">Net</span> - 01/2013 à 03/2014
             </div>
             <div id="net1" class="descricao">
-              descrição net
+              <p>
+              Sobre esse emprego, bem, na prática não trabalhei diretamente na Net-Vírtua, mas sim em uma representante autorizada (uma tercerizada), e trabalhava como vendedor externo. Claro que tinha a parte de lançar o contrato nos sistemas, monitorar a instalação, fazer o pós-venda, etc. Mas sem dourar a pílula, o grosso desse trabalho era pura e simplesmente vender combos da net.
+            </p>
+            <p>
+              Mas devo dizer que eu me divertia muito com isso, porque sempre gostei muito da área de venda (acho que você já percebeu que gosto muito de muita coisa, e sim, isso basicamente me descreve hahaha). Mas eu sempre acreditei que para vender bem, temos que acreditar no produto que vendemos, ou pelo menos eu sou assim. E o que eu mais gostava de vender net, é que desde sempre eu fui um geek viciado em técnologia, então enquantos meus colegas tinham que decorar e seguir um roteiro (e sem querer menosprezar o trabalho e o esforço deles!) eu sabia os dados de cor, e me interessava em saber mais, e muitas vezes "batia papo" com os clientes que acabavam fechando comigo tanto pela clareza com que passava as inforamções, tanto por conseguir esclarecer pormenores reclacionados a tecnologia, tanto por compartilharmos gostos em comum com relação a série, jogos, filmes, e outras coisas que pessoas buscam a acessar um plano de internet bancas larga e tv por assinatura.
+            </p>
+            <p>
+              Fui um período bacana, e como eu era vendendor externo, sempre estava em lugares diferentes, e usando estratégias diferentes, em horários diferentes, o que era bem estimulante. Mas eventualmente a empresa descontinuou o formato de venda externa, e fui transferido para o telemarketing, onde fiquei por um tempo, e até vendia bem, batia metas, mas não fazia tanto o meu estilo e após 3 meses nesse formato optei por sair e buscar novas oportunidades.
+            </p>
             </div>
           </li>
           <li>
             <div id="cna" class="titulo">
-              CNA
+              <span class="tituloEmprego">CNA</span> - 10/2011 à 09/2012
             </div>
             <div id="cna1" class="descricao">
-              descrição cna
+              <p>Para encerrar essa secção, vou falar um pouco da experiência que eu tinha em uma franquia da escola de idiomas CNA.</p>
+              <p>Consegui uma vaga na secretaria da escola graças a indicação de uma amiga que era professora lá. Mas após 3 dias, a dona da franquia acreditou em mim, e apostou que eu teria potencial para assumir o cargo de coordenação da área comercial. Eu sempre serei grato, porque foi não apenas minha primeira promoção, mas minha primeira chance de liderar uma equipe e lidar com aspectos mais burocráticos de um negócio.</p>
+              <p>Obviamente cometi incontáveis erros, e nesse sentido foi muito bom ter alguém formado em administração (minha chefe) me dando tutoria e ensinando tudo que precisava saber. Como já disse, acredito que o segredo de um bom vendendor seja acreditar no seu produto, e apesar de eu não fazer as vendas diretamente, conseguia parcerias, motivar a equive, e até reverter aquela venda quase perdida, porque sempre fui um grande entusiasta do aprendizado de uma segunda língua. Acredito que seja algo muito maior do que simplesmente conseguir um bom emprego ou poder fazer uma viagem internacional de modo mais confortável. Mas que pe uma questão cognitiva, algo que amplia sua visão de mundo, rejuvenece seu cérebro, além de te abrir um mundo novo de possibilidades.</p>
+              <p>Esse contrato de trabalho foi encerrado, porque a franquia ficava em Osasco, e na época eu me mudei para Cótia, e de transporte público gastava quase 6 horas por dia entre ida e volta, o que se tornou inviável.Mas sempre carreguei comigo os aprendizados que fiz lá, além de ter trazido bons amigos!</p>
             </div>
           </li>
         </ul>
@@ -344,11 +448,51 @@
       <div class="w3-conteiner w3-padding-32" id="outros">
         <h2>Informações Adicionais</h2>
         <hr style="width: 200px;" />
-        <h3>Outras Formações</h3>
-        <h4>Certificados</h4>
-        <h3>Outros Conhecimentos</h3>
-        <h3>Carta de Apresentação</h3>
+        <div class="w3-conteiner w3-padding-32">
+          <h3>Outras Formações e Conhecimentos</h3>
+          <p>Eu realmente adoro aprender coisas novas, então tenho um vasto repertório de cursos aleatórios nas mais diversas áreas, então tentarei colocar aqui só o que acredito serem mais relevantes:</p>
+        <ul>
+        <li>Inglês Avançado - CNA (2016)</li>
+        <li>Mandarim Básico - Clube de Chines Pula Muralha (cursando)</li>
+        <li>Diversos cursos de Desenho Artístico</li>
+        <li>Técnico em Elétrica - Senai</li>
+        </ul>
+      </div>
+        <h4>Certificados</h4> 
+        <div class="w3-conteiner margin-bottom">
+          <p>Abaixo coloquei os certificados que eu tenho na área de TI. Para ter acesso basta clicar sobre o nome do curso-tema</p>  
+          <ul class="w3-ul w3-border">            
+            <li class="w3-pale-blue">              
+                <a href="https://drive.google.com/file/d/1YFR9olfqWTEn2-M9wvhELH_1EOh_2gS_/view?usp=sharing" target="_blank" class="links">Fundamento de Lógica de programação - 15h - Fundação Bradesco</a>  
+            </li>                    
+            <li>              
+                <a href="https://drive.google.com/file/d/1h3QSw12uQa_MI8BlOob2Mv8om6wHjBWX/view?usp=sharing" target="_blank" class="links">UML - Linguagem de Modelagem Unificada - 12h - Fundação Bradesco</a>
+            </li>                        
+            <li class="w3-pale-blue">              
+                <a href="https://drive.google.com/file/d/1TjVdLzFx8J2yAeTyxFwpDDggeUfn4JPH/view?usp=sharing" target="_blank" class="links">Java Básico - 24h - Fundação Bradesco</a>                         
+            </li>
+            <li>              
+                <a href="https://drive.google.com/file/d/1agul3lpmzz0DVuDnjNu4diahjC-yeBtF/view?usp=sharing" target="_blank" class="links">Java Avançado - 16h - Fundação Bradesco</a>
+            </li>                        
+            <li class="w3-pale-blue">              
+                <a href="https://drive.google.com/file/d/1YFR9olfqWTEn2-M9wvhELH_1EOh_2gS_/view?usp=sharing" target="_blank" class="links">Introdução a Progração Orientada a Objeto - 10h - Fundação Bradesco</a>                         
+            </li>
+            <li>              
+                <a href="https://drive.google.com/file/d/1auC5zzwThM027MxhzEff_Ok4C-JZuVfV/view?usp=sharing" target="_blank" class="links">Modelagem de Banco de Dados - 12h - Fundação Bradesco</a>
+            </li>                        
+            <li class="w3-pale-blue">              
+                <a href="https://drive.google.com/file/d/1G4S-ow24u3-Q6v2ELkAOo15L6_S13zgW/view?usp=sharing" target="_blank" class="links">Implementando Bancos de Dados - 15h - Fundação Bradesco</a>                         
+            </li>
+            <li>              
+                <a href="https://drive.google.com/file/d/1BZDvhBTfy9JcqakbfKl2pL6evS3Bg1Q5/view?usp=sharing" target="_blank" class="links">Administrando Bancos de Dados - 15h - Fundação Bradesco</a>                         
+            </li>
+          </ul>
+        </div>                
         <h3>Hobbies, Interesses e Valores</h3>
+        <p>Como você pode ter percebido, mais do que simplesmente categorizar minha experiência profissional, quis compartilhar um pouco com vocês a minha história de vida e visão de mundo, pois pela minha pequena experiência de vida, já pude perceber que ser um bom profissional é muito mais do que seu conhecimento técnico na área, e os número que você entrega no final do mês. Claro que tudo isso é muito importante. Mas para um projeto ter sucesso, é importante que as equipe trabalhe em harmonia, e a base disso é que haja uma coesão entre os valores. O que não quer dizer que as pessoas tenham que ser iguais, mas que o ambiente de trabalho deve ser um lugar aberto a diversidade e ao diálogo, afinal, é daí que nasce nas inovações, tão importantes na nossa área.</p>
+        <p>Eu sou muito comprometido e dedicado com tudo aquilo que me envolvo, buscando sempre assumir um visão realista, mas uma postura positiva diante dos acontecimento.</p>
+        <p>Eu gosto muito de animais, de estar em contato com a natureza, de meditar. Mas também gosto muito de tecnólogias, artes marciais (sou praticante de Kung Fu), adoro ler, e assistir series (especialmente animações). De vez em quando um happy hour é muito bom, afinal, quer coisa melhor que passar um tempo de qualidade com amigos e pessoas queridas? Mas confesso que já estou ficando meio velho, e começando a gostar cada vez mais de ficar em casa. embora, no final das contas, o equilíbrio seja a chava para qualquer questão.</p>
+        <p>Então se esse Currículo chegou até vocês, é porque acredito que sua empresa tem valores que eu acredito e compartilho, e gostaria muito de fazer parte do time de você, e tenho certeza de que evoluiremos muito juntos!</p>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
